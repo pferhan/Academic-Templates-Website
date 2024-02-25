@@ -1,0 +1,55 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.poster-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: auto;
+}
+
+.header, .author-info, .introduction,
+.methods, .results, .discussion,
+.future-directions, .acknowledgments,
+.references, .footer {
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: center;
+}
+
+.header {
+    grid-column: span 3; 
+}
+
+.author-info {
+    grid-column: span 3; 
+}
+
+.introduction,
+.methods {
+    grid-column: 1 / span 1;
+    grid-row: auto;
+}
+
+.results {
+    grid-column: 2 / span 1; 
+    grid-row: 3;
+}
+
+.discussion,
+.future-directions,
+.acknowledgments,
+.references {
+    grid-column: 3 / span 1; 
+    grid-row: auto;
+}
+
+.discussion {
+    grid-row: 3;
+}
+
+.footer {
+    grid-column: span 3; 
+}
