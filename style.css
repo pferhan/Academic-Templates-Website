@@ -2,7 +2,7 @@ body {
     font-family: 'Arial', sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #bcecea; /* Change the background color */
+    background-color: #cfe5e4; 
 }
 
 header {
@@ -10,10 +10,15 @@ header {
     color: #fff;
     text-align: center;
     padding: 10px; 
+    position: sticky;
+    top: -54px; 
+    z-index: 2;
 }
 
 h1 {
     margin: 0;
+    font-family: 'Andale Mono';
+    font-weight: bold;
 }
 
 main {
@@ -26,16 +31,31 @@ main {
     justify-content: space-around;
 }
 
+.search-bar {
+    border: 3px solid #ccc;
+    padding: 10px;
+    text-align: center;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: auto;
+}
+
 figure {
     text-align: center;
     margin-bottom: 20px;
 }
 
 img {
-    width: 200px;
-    height: 300px;
+    width: 250px;
+    height: 250px;
     cursor: pointer;
     transition: transform 0.3s ease-in-out;
+    border: 3px solid #ccc;
+    padding: 10px;
+    text-align: center;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: auto;
 }
 
 img:hover {

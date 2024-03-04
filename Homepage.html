@@ -8,9 +8,34 @@
 </head>
 <body>
     <header>
-        <h1>HOMEPAGE</h1>
+        <h1>Template Scholar</h1>
+        <div class="search-bar">
+            <a>What would you like to design today</a>
+
+            <input 
+                id="search" 
+                type="search" 
+                placeholder="Start typing to search..." 
+                list="search-suggestions" 
+                autocomplete="off"
+            />
+
+            <datalist id="search-suggestions">
+                <option value="Resume">
+                <option value="Academic Poster">
+                <option value="CV">
+                <option value="Homework Tracker">
+                <option value="Presentation">
+                <option value="Reference Page">
+              </datalist>
+        </div>
     </header>
     <main>
+        <section class="container">
+            <div class="search-display"></div>
+            
+            <div class="posts-container"></div>
+        </section>
         <section class="image-container">
             <figure>
                 <a href="#">
