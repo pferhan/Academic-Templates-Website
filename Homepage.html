@@ -9,6 +9,7 @@
 <body>
     <header>
         <h1>Template Scholar</h1>
+        <p></p>
         <div class="search-bar">
             <a>What would you like to design today</a>
 
@@ -17,8 +18,10 @@
                 type="search" 
                 placeholder="Start typing to search..." 
                 list="search-suggestions" 
-                autocomplete="off"
+                autocomplete="on"
             />
+
+            <button onclick="search()">Search</button>
 
             <datalist id="search-suggestions">
                 <option value="Resume">
@@ -29,6 +32,10 @@
                 <option value="Reference Page">
               </datalist>
         </div>
+
+        <div id="searchResults"></div>
+
+        <script src="script.js"></script>
     </header>
     <main>
         <section class="container">
@@ -57,7 +64,32 @@
                 </a>
                 <figcaption>CV Templates</figcaption>
             </figure>
+
+            <figure>
+                <a href="#">
+                    <img src="" alt="Assignment Tracker">
+                </a>
+                <figcaption>Assignment Tracker</figcaption>
+            </figure>
+
+            <figure>
+                <a href="#">
+                    <img src="" alt="Presentation">
+                </a>
+                <figcaption>Presentation Templates</figcaption>
+            </figure>
+            
+            <figure>
+                <a href="#">
+                    <img src="" alt="Citation Maker">
+                </a>
+                <figcaption>Citation Maker</figcaption>
+            </figure>
         </section>
     </main>
+    <footer>
+        <p>About Us</p>
+        <p>Contact Us</p>
+    </footer>      
 </body>
 </html>
