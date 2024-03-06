@@ -5,12 +5,12 @@ function search() {
     searchResultsContainer.innerHTML = '';
 
     var itemsOnPage = [
-        { name: 'Resume', link: '#' },
+        { name: 'Resume', link: 'http://127.0.0.1:3000/ResumeHomepage.html' },
         { name: 'Academic Poster', link: 'http://127.0.0.1:3000/PosterTemplates/PosterHomepage.html' },
-        { name: 'CV', link: '#' },
-        { name: 'Assignment Tracker', link: '#' },
-        { name: 'Presentation Template', link: '#' },
-        { name: 'Ciatation Generator', link: '#' },
+        { name: 'CV', link: 'http://127.0.0.1:3000/CVHomepage.html' },
+        { name: 'Assignment Tracker', link: 'http://127.0.0.1:3000/AssignmentTrackerHomepage.html' },
+        { name: 'Presentation Template', link: 'http://127.0.0.1:3000/PresentationHomepage.html' },
+        { name: 'Ciatation Generator', link: 'http://127.0.0.1:3000/CitationGeneratorHomepage.html' },
     ];
 
     // Filter items based on the search term
