@@ -6,7 +6,7 @@ function search() {
 
     var itemsOnPage = [
         { name: 'Resume', link: 'http://127.0.0.1:3000/ResumeHomepage.html' },
-        { name: 'Academic Poster', link: 'http://127.0.0.1:3000/PosterTemplates/PosterHomepage.html' },
+        { name: 'Academic Poster', link: 'http://127.0.0.1:3000/PosterHomepage.html' },
         { name: 'CV', link: 'http://127.0.0.1:3000/CVHomepage.html' },
         { name: 'Assignment Tracker', link: 'http://127.0.0.1:3000/AssignmentTrackerHomepage.html' },
         { name: 'Presentation Template', link: 'http://127.0.0.1:3000/PresentationHomepage.html' },
