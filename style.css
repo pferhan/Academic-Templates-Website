@@ -83,6 +83,18 @@ figcaption {
     text-align: center;
 }
 
+#getStartedButton {
+    background-color: green;
+    color: white;
+    font-size: 20 px;
+    border: none;
+    cursor:pointer;
+}
+
+#getStartedButton:hover {
+    background-color: red;
+}
+
 footer { 
     padding: 10px;
     background-color: #333;

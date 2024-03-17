@@ -13,12 +13,11 @@ function search() {
         { name: 'Ciatation Generator', link: 'http://127.0.0.1:3000/CitationGeneratorHomepage.html' },
     ];
 
-    // Filter items based on the search term
     var searchResults = itemsOnPage.filter(function(item) {
         return item.name.toLowerCase().includes(searchTerm);
     });
 
-    // Display the search results as clickable links
+    // Display the search results as clickable links - (change eventually) 
     searchResults.forEach(function(result) {
         var link = document.createElement('a');
         link.href = result.link;
@@ -29,4 +28,8 @@ function search() {
         searchResultsContainer.appendChild(link);
         searchResultsContainer.appendChild(lineBreak);
     });
+}
+
+document.getElementById("getStartedButton").addEventListener("click", function()) {
+    window.location.href = "http://127.0.0.1:3000/ResumeInput.html";
 }
