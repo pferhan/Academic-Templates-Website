@@ -99,6 +99,34 @@ figcaption {
     background-color: rgb(49, 199, 69);
 }
 
+h2 {
+    color:#333;
+    font-size: 30px;
+    font-weight: bold;
+    font-family: 'Andale Mono';
+    margin-bottom: 10px;
+}
+
+a {
+    color: #555;
+    font-size: 22px;
+    line-height: 1.5;
+    margin-bottom: 20px;
+    font-family: 'Verdana';
+}
+
+ul {
+    list-style-type: disc;
+    color: #555;
+    font-size: 22px;
+    font-family: 'Verdana';
+    margin-bottom: 20px;
+}
+
+li {
+    margin-bottom: 8px;
+}
+
 footer { 
     padding: 10px;
     background-color: #333;
