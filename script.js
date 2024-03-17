@@ -33,3 +33,56 @@ function search() {
 document.getElementById("getStartedButton").addEventListener("click", function() {
     window.location.href = "http://127.0.0.1:3000/ResumeInput.html";
 });
+
+function addSkill(skillName) {
+    const skillsList = document.getElementById('skillsList');
+    const listItem = document.createElement('li');
+    listItem.textContent = skillName;
+    skillsList.appendChild(listItem);
+}
+
+function addNewSkill() {
+    const newSkillInput = document.getElementById('newSkill');
+    const newSkill = newSkillInput.value;
+
+    if (newSkill.trim() !== '') {
+        addSkill(newSkill);
+        
+        newSkillInput.value = '';
+    }
+}
+
+function addCertification(certificationName) {
+    const certificationList = document.getElementById('certificationList');
+    const listItem = document.createElement('li');
+    listItem.textContent = certificationName;
+    certificationList.appendChild(listItem);
+}
+
+function addNewCertification() {
+    const newCertificationInput = document.getElementById('newCertification');
+    const newCertification = newCertificationInput.value;
+
+    if (newCertification.trim() !== '') {
+        addCertification(newCertification);
+        
+        newCertificationInput.value = '';
+    }
+}
+function addAward(awardName) {
+    const awardList = document.getElementById('awardList');
+    const listItem = document.createElement('li');
+    listItem.textContent = awardName;
+    awardList.appendChild(listItem);
+}
+
+function addNewAward() {
+    const newAwardInput = document.getElementById('newAward');
+    const newAward = newAwardInput.value;
+
+    if (newAward.trim() !== '') {
+        addAward(newAward);
+        
+        newAwardInput.value = '';
+    }
+}
