@@ -30,6 +30,6 @@ function search() {
     });
 }
 
-document.getElementById("getStartedButton").addEventListener("click", function()) {
+document.getElementById("getStartedButton").addEventListener("click", function() {
     window.location.href = "http://127.0.0.1:3000/ResumeInput.html";
-}
+});

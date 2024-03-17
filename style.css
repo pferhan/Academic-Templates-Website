@@ -84,15 +84,19 @@ figcaption {
 }
 
 #getStartedButton {
-    background-color: green;
-    color: white;
-    font-size: 20 px;
+    display: block;
+    margin: 0 auto;
+    background-color: rgb(156, 84, 182);
+    color: rgb(233, 233, 233);
+    padding: 30px 60px;
+    font-size: 25px;
     border: none;
+    text-align: center;
     cursor:pointer;
 }
 
 #getStartedButton:hover {
-    background-color: red;
+    background-color: rgb(49, 199, 69);
 }
 
 footer { 
