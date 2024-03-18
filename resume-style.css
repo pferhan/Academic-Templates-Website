@@ -12,3 +12,18 @@ body {
     height: 50%;
 }
 
+#generateResume {
+    display: block;
+    margin: 0 auto;
+    background-color: rgb(188, 47, 19);
+    color: rgb(233, 233, 233);
+    padding: 30px 60px;
+    font-size: 25px;
+    border: none;
+    text-align: center;
+    cursor:pointer;
+}
+
+#generateResume:hover {
+    background-color: rgb(49, 199, 69);
+}

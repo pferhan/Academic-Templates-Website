@@ -86,3 +86,7 @@ function addNewAward() {
         newAwardInput.value = '';
     }
 }
+
+document.getElementById("generateResume").addEventListener("click", function() {
+    window.location.href = "";
+});
